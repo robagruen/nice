@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "watch": "watch 'npm run build' ./ts"
+  },
+  "dependencies": {
+    "watch": "^1.0.2"
+  }
+}
